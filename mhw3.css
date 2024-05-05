@@ -1,0 +1,412 @@
+body{
+  margin: 0px;
+  background-color: lightgrey;
+  background-size: cover;
+}
+
+header{
+  display: block;
+  font-family: cambria;
+  height: 300%;
+  width: 100%;
+  background-color: rgb(82, 79, 79);/*#757a79;*/
+  border: 4px solid none;
+  padding: 1.5%;
+  font-size: 100%;
+}
+
+footer{
+  font-family: cambria;
+  height: 600px;
+  width: 891px;
+  margin-left: 20%;
+  background-color: #606470;
+}
+
+article{
+  height: 95em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+div.red{
+  display: block;
+  height: 20%;
+  width: 102.55%;
+  background-color: #dc2f2f;
+  padding: 0.2%;
+}
+
+section{
+  display: block;
+  color: #0e2431;
+  height: 2500em;
+  width: 70.7em;
+  padding: 20px;
+  font-size: 12px;
+  font-family: helvetica;
+  margin-top: 0px;
+  margin-left: 20%;
+  background-color: white;
+  border: 2px solid grey;
+}
+
+input{
+  display: inline-block;
+  border-radius: 7px;
+  font-size: 15.5px;
+  background-color: #d5e4e1;
+  border: 0.1px solid #a3a8a7;
+  margin-top: 2px;
+  margin-left: 2px;
+}
+
+input:hover{
+    border: 1px solid #0092ca;
+}
+
+p{
+  color: #0092ca;
+  font-size: 12px;
+  margin-left: 1px;
+  margin-bottom: 0px;
+  margin-right: 660px;
+  margin-top: 10px;
+}
+
+span{
+  font-size: 13px;
+  background-color: #e7eaf6;
+  border: 1px solid gray;
+  padding: 5px;
+  margin-left: 140px;
+  border-radius: 8px;
+}
+
+a.button {
+    font-size: 10px;
+    padding: 6px;
+    border-radius: 10px;
+    border: 1px solid black;
+    margin-left: 17%;
+    margin-bottom: -30%;
+    margin-top: -30%;
+    background-color: lightgrey;
+  }
+  
+  a.button:hover {
+    background-color: gray;
+    border: 1px solid #0092ca;
+    color: white;
+  }
+  
+  a {
+    cursor: pointer;
+  }
+
+span.anno{
+  display: inline-block;
+  font-size: 14.2px;
+  font-family: helvetica;
+  color: black;
+  background-color: white;
+  border: 2.2px solid gray;
+  padding: 2.5px;
+  width: 185px;
+  margin-bottom: 1px;
+  margin-top: -10px;
+  margin-left: 5px;
+  margin-right: 700px;
+  border-radius: 8px;
+}
+
+span.anno:hover{
+    border: 2.2px solid #0092ca;
+}
+
+span.login{
+  display: block;
+  height: 145px;
+  width: 180px;
+  margin-left: 1px;
+  margin-top: -20px;
+  padding: 10px;
+}
+
+h1{
+  border: 0.1px solid lightgray;
+  width: 193px;
+  margin-top: 1px;
+  margin-left: 1px;
+}
+
+a{
+  display: inline-block;
+  text-decoration: none;
+  color: #363636;
+  font-size: 13.5px;
+  margin-bottom: 2px;
+}
+
+a:hover{
+  color: darkred;
+}
+
+ol{
+  margin-left: -35px;
+  margin-top: -35px;
+  font-size: 12px;
+}
+
+font{
+  color: #ffc93c;
+  font-size: 10px;
+}
+
+img.info{
+  display: inline-block;
+  height: 16px;
+  width: 16px;
+  margin-left: 2px;
+  margin-bottom: -0.5px;
+}
+
+#flex-container{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+#flex-items{
+  border-radius: 10px;
+  border: 2px solid black;
+  margin: 2px;
+  width: 300px;
+  height: 500px;
+}
+
+div.boxdipartimenti{
+  display: block;
+  border: 2px solid transparent;
+  height: 40px;
+  width: 580px;
+  margin-left: 240px;
+  margin-top: -60px;
+  font-family: sans-serif;
+}
+
+p.dipartimenti{
+  color: #c50000;
+}
+
+div.redfooter{
+  display: block;
+  height: 5px;
+  width: 810px;
+  margin-left: 40px;
+  margin-top: 23px;
+  background-color: red;
+}
+
+p.dip2{
+  display: flex;
+  color: #363636;
+  font-size: 11.5px;
+  margin-left: 1px;
+  margin-bottom: 1.1px;
+  margin-top: 2px;
+  font-family: sans-serif;
+  padding: 0px;
+  height: 17px;
+  width: 550px;
+  text-align: flex-start;
+  font-weight: bold;
+}
+
+p.mappa{
+  font-family: sans-serif;
+  color: #c50000;
+}
+
+p.dip2:hover{
+  background-color: #e7eaf6;
+  color: #0092ca;
+}
+
+div.grey{
+  display: block;
+  background-color: #233142;
+  height: 3px;
+  width: 890px;
+  margin-top: -20.7px;
+  margin-left: -20px;
+}
+
+p.dip3{
+  display: flex;
+  font-size: 10px;
+  margin-left: 1px;
+  margin-bottom: 1.1px;
+  margin-top: -15px;
+  padding: 1px;
+  height: 17px;
+  width: 190px;
+  text-align: flex-start;
+}
+
+p.dip3:hover{
+  background-color: #e7eaf6;
+}
+
+img.googleplay{
+  display: block;
+  height: 27px;
+  width: 100px;
+  margin-top: -1%;
+  margin-bottom: 1%;
+}
+
+img.appstore{
+  display: block;
+  height: 27px;
+  width: 100px;
+  margin-top: -2.5%;
+  margin-bottom: 1%;
+}
+
+div.container{
+  display: flex;
+  height: 150%;
+  width: 892px;
+  margin-left: 20%;
+  flex-direction: row;
+  background-size: cover;
+}
+
+img.studium{
+  display: block;
+  height: 100%;
+  width: 28.5%;
+}
+
+img.studenti{
+  display: block;
+  height: 100%;
+  width: 150%;
+}
+
+div.blank{
+  display: block;
+  height: 33px;
+  width: 810px;
+  margin-left: 44px;
+  margin-bottom: -25px;
+  background-color: #606470;
+  font-size: 12px;
+  color: white;
+  font-family: arial;
+}
+
+a.ammin{
+  color: white;
+}
+
+a.ammin:hover{
+  color: #0092ca;
+}
+
+/*Codice per mappa cittadella*/
+
+#album-view{
+  border: 1px solid black;
+  height: 250px;
+  width: 500px;
+  margin: 1%;
+}
+
+
+#album-view img{
+  border: 1px solid slategray;
+  margin: 0px;
+  padding: 0px;
+  height: 250px;
+  width: 500px;
+}
+
+#modal-view{
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 167%;
+  width: 100%;
+  margin: 0px;
+
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 2;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#modal-view img {
+  max-height: 60%;
+  max-width: 80%;
+}
+
+#modal-view.hidden {
+  display: none;
+}
+
+/* CODICE per API con openlibrary*/
+
+#library-view{
+    display: flex;
+    margin: 3px;
+    height: 200px;
+    width: 503px;
+    flex-wrap: wrap;
+    border: 0.2px solid black;
+}
+
+#library-view .book{
+    margin: 5px;
+    padding: 1px;
+    border: 1px solid gray;
+    max-width: 150px;
+    max-height: 200px;
+    display: flex;
+    flex-direction: column;
+}
+
+#library-view img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+/*CODICE per API con SPOTIFY*/
+
+#music-view{
+  display: flex;
+  margin: 3px;
+  height: 200px;
+  width: 503px;
+  flex-wrap: wrap;
+  border: 0.2px solid black;
+}
+
+#music-view .album{
+  padding: 1px;
+  margin: 5px;
+  border: 1px solid black;
+  max-width: 150px;
+  max-height: 180px;
+  display: flex;
+  flex-direction: column;
+}
+
+#music-view img{
+  width: 100%;
+  height: 100%;
+}
